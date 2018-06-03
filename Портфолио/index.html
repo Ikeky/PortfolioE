@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Портфолио</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <script src="https://www.google.com/jsapi"></script>
+  <script>
+   /*google.load("visualization", "1", {packages:["corechart"]});
+   google.setOnLoadCallback(drawChart);
+   function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+       ['Год', 'Россия', 'США'],
+       ['1860', 1.3, 70],
+       ['1885', 2000, 3120],
+       ['1901', 12170, 9920]
+      ]);
+      var options = {
+       title: 'Добыча нефти',
+       hAxis: {title: 'Год'},
+       vAxis: {title: 'Тыс. тонн'}
+      };
+      var chart = new google.visualization.ColumnChart(document.getElementById('oil'));
+      chart.draw(data, options);
+    }*/
+  </script>
+ </head>
+ <body class="grey lighten-1">
+<black class="webclose w100 h100">
+  <div class="row h100">
+    <div class="col s12 m10 offset-m1 white" id="show">
+        <div class="b-des grey" style='height:10%'>
+          <div class="vcircle red" id="v-close">
+            
+          </div>
+        </div>
+        <div class="row" style="padding:0;height:90%;margin:0">
+            <div class="col s6 h100" style="text-align: center">
+                <div class="frame w100">
+                </div>
+                <div class="b-des orange" id="v-name" style="height:10%">
+                  
+                </div>
+                <a href="https://github.com/Ikeky" class="chip orange" id="v-git">
+                  <img src="img/2.jpg" alt="Contact Person">
+                    GitHub
+                </a>
+            </div>
+            <div class="col s6 h100 grey lighten-2">
+              <p class="w100 h100" id="v-info">
+                
+              </p>
+            </div>
+        </div>
+    </div>
+  </div>
+</black>
+<nav>
+  <div class="nav-wrapper blue-grey darken-4">
+    <a href="#" class="brand-logo center orange" style="padding-left:1rem;padding-right:1rem;">Портфолио</a>
+  </div>
+</nav>
+<div class="block-rel mleft blue darken-3">
+        <div class="row white w100 h100 mg-0 mgb-0" id="profile">
+                <div class="col s12 m4 h100" id="p_photo">
+                    <img src="img/1.jpeg" class="p_photo_src circle">
+                    <div class="center w100">
+                      <a href="https://github.com/Ikeky" class="chip orange ">
+                        <img src="img/2.jpg" alt="Contact Person">
+                        GitHub
+                      </a>
+                    </div>
+                </div>
+                <div class="section col s12 m8 h100" id="p_info">
+                    <h5 style="font-size:4vw">Торговкин Андрей Викторович</h5>
+                    <p style="font-size:3vh">Позиционируюсь как: Game-Dev разработчик(Unity3D),Веб-Разработчик,немного Дизайнер и Проджект Менеджер</p>
+                    <p style="font-size:2.5vh;margin-top:3vh;margin-bottom:1vh">
+                      Занимаюсь в веб кружках:
+                    </p>
+                    <a href="http://www.it-labor.ru/" class="chip">
+                      <img src="img/2.jpg" alt="Contact Person">It-labor
+                    </a>
+                    <a href="http://m.roskvantorium.ru/" class="chip">
+                      <img src="img/2.jpg" alt="Contact Person">
+                      Кванториум
+                    </a>
+          </div>
+  </div>
+</div>
+
+<!--<div class="block hr30 mright grey lighten-2">
+  <div class="container h100">
+    <div class="b-des w100 orange">
+      <h3 class="h100 mg-0 mgl-70 inv-black center">Интересы</h3>
+    </div>
+    <div class="row w100 h100 ">
+      <div class="b-mini col s6 center grey lighten-4">
+        <p>Писать алгоритмы &#127915;</p>
+      </div>
+      <div class="b-mini col s6 center white ">
+        <p>Делать устройства в Arduino &#127904;</p>
+      </div>
+      <div class="b-mini col s6 center white">
+        <p>Играть в баскетбол &#127936;</p>
+      </div>
+      <div class="b-mini col s6 center grey lighten-4">
+        <p></p>
+      </div>
+      <div class="b-mini col s6 center grey lighten-4">
+        <p></p>
+      </div>
+      <div class="b-mini col s6 center white">
+        <p></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="block mleft red darken-1">
+  <div id="oil" class="w100 h100">
+    
+  </div>
+</div>
+<div class="block mright yellow">
+  <div class="row w100 h100">
+    <div class="col s2 h100 pg-0" style="background-color: #3b434b">
+      <img src="img/skilllogo.png" class="w100">
+    </div>
+    <div class="col s10 h100 white">
+      <div class="b-des orange mgb-3 pgl-10">
+        <p class="inv-white h100 pgl-10">Знания Языков</p>
+      </div>
+      <p>HTML,CSS</p>
+      <div class="rcontainer">
+        <div class="skills html">70%</div>
+      </div>
+      
+      <p>JavaScript</p>
+      <div class="rcontainer">
+        <div class="skills js">25%</div>
+      </div>
+
+      <p>C#</p>
+      <div class="rcontainer">
+        <div class="skills csharp">40%</div>
+      </div>
+
+      <p>C++</p>
+      <div class="rcontainer">
+        <div class="skills cplusplus">10%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="block w100 hr30 teal">
+  <div class="container h100">
+    <div class="row h100 red">
+      <div class="b-des blue">
+        Kek
+      </div>
+      <div class="col s5 vbor b-mini" style="float:right"></div>
+      <div class="col s5 vbor b-mini" style="float:right"></div>
+      <div class="col s5 vbor b-mini"></div>
+      <div class="col s5 vbor b-mini"></div>
+      <div class="col s5 vbor b-mini" style="float:right"></div>
+      <div class="col s5 vbor b-mini" style="float:right"></div>
+    </div>
+  </div>
+</div>
+<div class="block mright purple">
+  <div class="b-des orange">
+    
+  </div>
+  <div class="timeline">
+    <div class="t-container t-left">
+      <div class="t-content">
+        <h2>2017</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+    <div class="t-container t-right">
+      <div class="t-content">
+        <h2>2016</h2>
+        <p>Lorem ipsum..</p>
+      </div>
+    </div>
+  </div>
+</div>-->
+<div class="block-rel mright green accent-4">
+  <div class="b-des yellow accent-4">
+    
+  </div>
+  <div class="row h100 white container-fluid">
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image" >
+          <img src="img/3.png">
+          <span class="card-title">Олонхо</span>
+        </div>
+        <div class="card-content">
+          <p>Эта игра покажет "всему" миру: красоту природы и культуры Якутии. Она изменит отношение к культуре</p>
+          <span class="green-text text-accent-4">
+            Стадия: в Активной разработке
+          </span>
+        </div>
+        <div class="card-action">
+          <a href="#" class="playvideo" num="1" eqsrc="https://www.youtube.com/embed/DVWBYtdxURE">Подробнее</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4 offset-m05">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/Roome.jpg">
+          <span class="card-title">R.O.O.M.</span>
+        </div>
+        <div class="card-content">
+          <p>Эта игра откроет тему "Войны".Игра в пиксельном стиле, жанр: выживание, RPG, экшн, с сюжетом напоминающим на "Inception". "R.O.O.M." продолжит историю игры "KSSA".</p>
+          <span class="blue-text text-accent-4">
+            Стадия: в Активной разработке<br>
+            Дата выхода: осень 2018
+          </span>
+        </div>
+        <div class="card-action">
+          <a href="#" class="playvideo" num="2" eqsrc="https://www.youtube.com/embed/q3a9kjIGuso">Подробнее</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4 offset-m05">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/ROOM.png">
+          <span class="card-title">KSSA</span>
+        </div>
+        <div class="card-content">
+          <p>Эта игра откроет тему "Войны".Игра в пиксельном стиле, жанр: выживание, RPG, экшн, с сюжетом напоминающим на "Inception". "R.O.O.M." продолжит историю игры "KSSA".</p>
+          <span class="green-text text-accent-4">
+            Стадия: Замарожена до 2019
+          </span>
+        </div>
+        <div class="card-action">
+          <a href="#" class="playvideo" num="3" eqsrc="">Подробнее</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4 offset-m05">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/1.png">
+          <span class="card-title">Shooter</span>
+        </div>
+        <div class="card-content">
+          <p>Игра основана на доминировании над "зомби", которых можно устранить снайперкой и пистолетом. Всю логику игры делал сам без помощи преподователей.</p>
+          <span class="green-text text-accent-4">
+            Стадия: Выпущена
+          </span>
+        </div>
+        <div class="card-action">
+          <a href="#" class="playvideo" num="4" eqsrc="https://www.youtube.com/embed/Q7SDKmYDmMM">Подробнее</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4 offset-m05">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/7.png">
+          <span class="card-title">QuestLabor</span>
+        </div>
+        <div class="card-content">
+          <p>Игра про спасение из какой-либо причудливой ситуации. Игра в жанре: квест, бродилки.</p>
+          <span class="green-text text-accent-4">
+            Стадия: Выпуск 9 июня 2018.
+          </span>
+        </div>
+        <div class="card-action">
+          <a href="#" class="playvideo" num="5" eqsrc="https://www.youtube.com/embed/7Lnh6J8VhBk">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="page-footer blue-grey darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script>
+      var readlinks = document.querySelectorAll(".playvideo");
+      var blackblock = document.querySelector(".webclose");
+      var b_frame = document.querySelector(".frame");
+      var b_name = document.getElementById("v-name");
+      var b_git = document.getElementById("v-git");
+      var b_info = document.getElementById("v-info");
+      var b_close = document.getElementById("v-close");
+      for(var i=0;i<readlinks.length;i++){
+        readlinks[i].onclick = function(){
+            blackblock.style.display = "block";
+            if(this.getAttribute("num") == 1){
+              b_frame.innerHTML='<iframe width="560" height="315" src="'+this.getAttribute("eqsrc")+'" frameborder="0" id="v-src" allowfullscreen></iframe>';
+              b_info.innerHTML="<span style='font-weight:bold'>Описание:</span>Игра повествует о якутском охотнике, который потерялся в тайге. Ему придётся выживать в суровых реалиях Якутской тайги.Игра в стадии разработки. Скрипты слева!<br><span style='font-weight:bold'>Разработка: проект в разработке</span>";
+              b_name.innerHTML="Проект 'Олонхо'";
+              b_git.href = "https://github.com/Ikeky/OLONXO";
+            }
+            if(this.getAttribute("num") == 2){
+              b_frame.innerHTML='<iframe width="560" height="315" src="'+this.getAttribute("eqsrc")+'" frameborder="0" id="v-src" allowfullscreen></iframe>';
+              b_name.innerHTML="Проект 'R.O.O.M.'";
+              b_info.innerHTML="<span style='font-weight:bold'>Описание:</span>Игра расскажет всю опасность войны и покажет всю важность выживания нашего рода. Игра пародит заботу к природе<br><span style='font-weight:bold'>Разработка: В замарозке до 2019</span><img src='img/ROOM.png' class='w50 fl-left'><img src='img/Roome.jpg' class='w50 fl-left'>";
+              b_git.parentNode.removeChild(b_git);
+            }
+            if(this.getAttribute("num") == 3){
+              b_name.innerHTML="Проект 'KSSA'";
+              b_frame.innerHTML="Имеющие причастность к игре видео нету!";
+              b_info.innerHTML="<span style='font-weight:bold'>Описание:</span>Вы играете в роли 'Илона Маска', но вы будете всё начинать с первой карьерной лестницы. Ваша цель сподвигнуть мир в развитие!<span style='font-weight:bold'>Разработка: В замарозке до осени</span>";
+              b_git.parentNode.removeChild(b_git);
+            }
+            if(this.getAttribute("num") == 4){
+              b_frame.innerHTML='<iframe width="560" height="315" src="'+this.getAttribute("eqsrc")+'" frameborder="0" id="v-src" allowfullscreen></iframe>';
+              b_info.innerHTML="<span style='font-weight:bold'>Описание:</span> В него можно поиграть по ссылке слева, эта игра про убийство зомби. Эта игра в жанре выживания, зарабатывая себе деньги ликвидируя зомби. Скрипты слева!<br><span style='font-weight:bold'>Разработка:Выпущена, версия: 0.1b </span>";
+              b_name.innerHTML="Проект 'ShooterGame'";
+              console.log(b_git);
+              b_git.href = "https://github.com/Ikeky/Unity";
+            }
+            if(this.getAttribute("num") == 5){
+              b_frame.innerHTML='<iframe width="560" height="315" src="'+this.getAttribute("eqsrc")+'" frameborder="0" id="v-src" allowfullscreen></iframe>';
+              b_info.innerHTML="<span style='font-weight:bold'>Описание:</span> Игра про нахождении выхода из любой причудливой ситуации.Имеется 2 локации. Скрипты слева!<br><span style='font-weight:bold'>Разработка: Выпуск 9 июня 2018 </span>";
+              b_name.innerHTML="Проект 'QuestLabor'";
+              console.log(b_git);
+              b_git.href = "https://github.com/Ikeky/QuestLabor-copy";
+            }
+        }
+      }
+        b_close.onclick = function(){
+          blackblock.style.display = "none";
+      }
+</script>
+ </body>
+ </html>
